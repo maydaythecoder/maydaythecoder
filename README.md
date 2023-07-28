@@ -161,9 +161,9 @@
 
 <h2>Contact me :postbox:</h2>
 <div>
-  <a href = "mailto:whitehorse9021@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://join.skype.com/invite/qWHqVMM1RVZz" target="_blank"><img src="https://img.shields.io/badge/Skype-00AFF0?style=for-the-badge&logo=skype&logoColor=white" target="_blank"></a>
-  <a href="https://t.me/whitehorse1004" target="_blank"><img src="https://img.shields.io/badge/-telegram-red?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a>
+  <a href = "mailto:maydaythecoder@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://join.skype.com/invite/jZdwYgkxf4XN" target="_blank"><img src="https://img.shields.io/badge/Skype-00AFF0?style=for-the-badge&logo=skype&logoColor=white" target="_blank"></a>
+  <a href="https://t.me/maydaythecoder" target="_blank"><img src="https://img.shields.io/badge/-telegram-red?style=for-the-badge&logo=telegram&logoColor=white" target="_blank"></a>
 </div>
 
 <p align="center">
