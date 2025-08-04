@@ -108,8 +108,6 @@
 </div>
 
 <h2>Github stats :bar_chart:</h2>
-<h4 align="center">Visitor's count :eyes:</h4>
-<p align="center"><img src="https://profile-counter.glitch.me/{maydaythecoder}/count.svg" alt="maydaythecoder :: Visitor's Count" /></p>
 
 <p align="center">
 
@@ -135,11 +133,4 @@
 <a href="https://github.com/maydaythecoder?tab=achievements"><img src="https://github-profile-trophy.vercel.app/?username=maydaythecoder&theme=gitdimmed&no-frame=true&column=3&row=2"  width="38%" alt="@maydaythecoder's trophy stats"/></a>
 </p>
 
-<h2>Contact me :postbox:</h2>
-<div>
-  <a href = "mailto:Muhyadin.Mohamed.003@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-</div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=65&section=footer"/>
-</p>
