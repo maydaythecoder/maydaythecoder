@@ -108,7 +108,8 @@
 </div>
 
 <h2>Github stats :bar_chart:</h2>
-
+<h4 align="center">Visitor's count :eyes:</h4>
+<p align="center"><img src="https://profile-counter.glitch.me/{maydaythecoder}/count.svg" alt="maydaythecoder :: Visitor's Count" /></p>
 <p align="center">
 
 <!--
