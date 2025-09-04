@@ -51,9 +51,6 @@
 
 
 <h2>Github stats :bar_chart:</h2>
-<h4 align="center">Visitor's count :eyes:</h4>
-<p align="center"><img src="https://profile-counter.glitch.me/{maydaythecoder}/count.svg" alt="maydaythecoder :: Visitor's Count" /></p>
-<p align="center">
 
 <!--
 <a href="https://github.com/maydaythecoder?tab=repositories"><img src="https://github-readme-stats.vercel.app/api?username=maydaythecoder&theme=gotham&show_icons=true&count_private=true&hide_border=true"  width="48%" alt="@maydaythecoder's github-readme-stats"/></a>
