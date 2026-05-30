@@ -1,12 +1,6 @@
 # React | React Native | Typescript | Rust  | Python Developer
 
 
-  <p align="center">
-    <a href="https://wakatime.com/@maydaythecoder">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=maydaythecoder&theme=merko&hide_border=true&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="95%" alt="maydaythecoder's activity graph">
-    </a>
-</p>
-
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
@@ -45,3 +39,9 @@
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 </div>
+
+  <p align="center">
+    <a href="https://wakatime.com/@maydaythecoder">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=maydaythecoder&theme=merko&hide_border=false&hide_title=false&area=true&custom_title=Total%20contribution%20graph%20in%20all%20repo" width="95%" alt="maydaythecoder's activity graph">
+    </a>
+</p>
