@@ -1,4 +1,4 @@
-<div align="center">
+<div >
   <img src="https://metrics.lecoq.io/maydaythecoder?template=classic&isocalendar=1&lines=1&stars=1&base=header%2C%20activity%2C%20community%2C%20repositories%2C%20metadata&base.indepth=false&base.hireable=false&base.skip=false&isocalendar.duration=full-year&lines.sections=base&lines.repositories.limit=4&lines.history.limit=4&lines.delay=0&stars.limit=4&config.timezone=America%2FNew_York" alt="Metrics">
 </div>
 
