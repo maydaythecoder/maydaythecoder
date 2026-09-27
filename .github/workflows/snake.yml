@@ -1,4 +1,4 @@
-name: Generate snake animation
+name: Generate snake and activity graph
 on:
   schedule:
     - cron: "0 0 * * *"   # daily at midnight
@@ -9,6 +9,11 @@ jobs:
     permissions:
       contents: write
     steps:
+      - uses: actions/checkout@v4
+      - name: Generate activity graph
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: mkdir -p dist && python3 .github/scripts/activity_graph.py dist/activity-graph.svg
       - uses: Platane/snk@v3
         with:
           github_user_name: maydaythecoder
