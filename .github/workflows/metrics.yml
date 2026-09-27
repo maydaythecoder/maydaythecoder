@@ -34,7 +34,7 @@ jobs:
           # Options
           user: maydaythecoder
           template: classic
-          base: header, repositories
+          base: header, activity, community, repositories, metadata
           config_timezone: America/New_York
           plugin_achievements: yes
           plugin_achievements_display: compact
@@ -77,3 +77,33 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           repositories_forks: yes
+          plugin_introduction: yes
+          plugin_introduction_title: yes
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_followup_indepth: yes
+          plugin_notable: yes
+          plugin_notable_from: all
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit, pull_request, issue
+          plugin_projects: yes
+          plugin_projects_limit: 4
+          plugin_gists: yes
+          plugin_stars: yes
+          plugin_stars_limit: 4
+          plugin_reactions: yes
+          plugin_reactions_limit: 200
+          plugin_reactions_details: count, percentage
+          plugin_discussions: yes
+          plugin_discussions_categories: yes
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          plugin_people: yes
+          plugin_people_limit: 24
+          plugin_people_types: followers, following
+          plugin_people_size: 28
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 15
