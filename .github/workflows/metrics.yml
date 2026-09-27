@@ -9,6 +9,10 @@ on:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+    concurrency:
+      group: metrics
+      cancel-in-progress: false
     permissions:
       contents: write
     steps:
@@ -23,6 +27,9 @@ jobs:
           #  - read:packages (for some packages related data)
           #  - repo          (optional, if you want to include private repositories)
           token: ${{ secrets.METRICS_TOKEN }}
+          # Fail fast instead of retrying 3x with 5 min delays (~16 min per failed run)
+          retries: 2
+          retries_delay: 60
 
           # Options
           user: maydaythecoder
