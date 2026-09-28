@@ -14,6 +14,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: mkdir -p dist && python3 .github/scripts/activity_graph.py dist/activity-graph.svg
+      - name: Pick code snippet of the day
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python3 .github/scripts/code_snippet.py dist/code-snippet.svg
       - uses: Platane/snk@v3
         with:
           github_user_name: maydaythecoder
