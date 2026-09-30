@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="402" viewBox="0 0 820 402">
 <rect x="0.5" y="0.5" width="819" height="401" rx="6" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="32" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="17" font-weight="600">Code snippet of the day</text>
-<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/chess · main.py · L103–118 · Python</text>
+<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/HousePricePredictionModel · generate_submission.py · L188–203 · Python</text>
 <line x1="0" x2="820" y1="66" y2="66" stroke="#30363d"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" style="white-space:pre">
-<text x="50" y="91" fill="#6e7681" text-anchor="end">103</text>
-<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">if</tspan> abs(dc) == <tspan fill="#79c0ff">1</tspan> <tspan fill="#ff7b72">and</tspan> dr == <tspan fill="#79c0ff">1</tspan> <tspan fill="#ff7b72">and</tspan> is_white(target):</text>
-<text x="50" y="110" fill="#6e7681" text-anchor="end">104</text>
-<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">        <tspan fill="#ff7b72">return</tspan> <tspan fill="#ff7b72">True</tspan></text>
-<text x="50" y="129" fill="#6e7681" text-anchor="end">105</text>
-<text x="64" y="129" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="50" y="148" fill="#6e7681" text-anchor="end">106</text>
-<text x="64" y="148" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e"># ---------------- Rook ----------------</tspan></text>
-<text x="50" y="167" fill="#6e7681" text-anchor="end">107</text>
-<text x="64" y="167" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">if</tspan> piece <tspan fill="#ff7b72">in</tspan> [whiteRook, blackRook]:</text>
-<text x="50" y="186" fill="#6e7681" text-anchor="end">108</text>
-<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">if</tspan> r1 == r2 <tspan fill="#ff7b72">or</tspan> c1 == c2:</text>
-<text x="50" y="205" fill="#6e7681" text-anchor="end">109</text>
-<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">        <tspan fill="#ff7b72">return</tspan> clear_path(r1, c1, r2, c2)</text>
-<text x="50" y="224" fill="#6e7681" text-anchor="end">110</text>
-<text x="64" y="224" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="50" y="243" fill="#6e7681" text-anchor="end">111</text>
-<text x="64" y="243" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e"># ---------------- Bishop ----------------</tspan></text>
-<text x="50" y="262" fill="#6e7681" text-anchor="end">112</text>
-<text x="64" y="262" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">if</tspan> piece <tspan fill="#ff7b72">in</tspan> [whiteBishop, blackBishop]:</text>
-<text x="50" y="281" fill="#6e7681" text-anchor="end">113</text>
-<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">if</tspan> abs(dr) == abs(dc):</text>
-<text x="50" y="300" fill="#6e7681" text-anchor="end">114</text>
-<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">        <tspan fill="#ff7b72">return</tspan> clear_path(r1, c1, r2, c2)</text>
-<text x="50" y="319" fill="#6e7681" text-anchor="end">115</text>
-<text x="64" y="319" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="50" y="338" fill="#6e7681" text-anchor="end">116</text>
-<text x="64" y="338" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e"># ---------------- Queen ----------------</tspan></text>
-<text x="50" y="357" fill="#6e7681" text-anchor="end">117</text>
-<text x="64" y="357" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">if</tspan> piece <tspan fill="#ff7b72">in</tspan> [whiteQueen, blackQueen]:</text>
-<text x="50" y="376" fill="#6e7681" text-anchor="end">118</text>
-<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">if</tspan> r1 == r2 <tspan fill="#ff7b72">or</tspan> c1 == c2 <tspan fill="#ff7b72">or</tspan> abs(dr) == abs(dc):</text>
+<text x="50" y="91" fill="#6e7681" text-anchor="end">188</text>
+<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">model.fit(X_train, y_train)</text>
+<text x="50" y="110" fill="#6e7681" text-anchor="end">189</text>
+<text x="64" y="110" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="129" fill="#6e7681" text-anchor="end">190</text>
+<text x="64" y="129" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e"># Make predictions</tspan></text>
+<text x="50" y="148" fill="#6e7681" text-anchor="end">191</text>
+<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">train_pred = model.predict(X_train)</text>
+<text x="50" y="167" fill="#6e7681" text-anchor="end">192</text>
+<text x="64" y="167" fill="#c9d1d9" xml:space="preserve">val_pred = model.predict(X_val)</text>
+<text x="50" y="186" fill="#6e7681" text-anchor="end">193</text>
+<text x="64" y="186" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="205" fill="#6e7681" text-anchor="end">194</text>
+<text x="64" y="205" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e"># Calculate RMSE</tspan></text>
+<text x="50" y="224" fill="#6e7681" text-anchor="end">195</text>
+<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">train_rmse = np.sqrt(mean_squared_error(y_train, train_pred))</text>
+<text x="50" y="243" fill="#6e7681" text-anchor="end">196</text>
+<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">val_rmse = np.sqrt(mean_squared_error(y_val, val_pred))</text>
+<text x="50" y="262" fill="#6e7681" text-anchor="end">197</text>
+<text x="64" y="262" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="281" fill="#6e7681" text-anchor="end">198</text>
+<text x="64" y="281" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e"># Cross-validation score</tspan></text>
+<text x="50" y="300" fill="#6e7681" text-anchor="end">199</text>
+<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">cv_scores = cross_val_score(model, X_train, y_train, cv=<tspan fill="#79c0ff">5</tspan>, </text>
+<text x="50" y="319" fill="#6e7681" text-anchor="end">200</text>
+<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">                           scoring=<tspan fill="#a5d6ff">'neg_mean_squared_error'</tspan>)</text>
+<text x="50" y="338" fill="#6e7681" text-anchor="end">201</text>
+<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">cv_rmse = np.sqrt(-cv_scores.mean())</text>
+<text x="50" y="357" fill="#6e7681" text-anchor="end">202</text>
+<text x="64" y="357" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="376" fill="#6e7681" text-anchor="end">203</text>
+<text x="64" y="376" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">return</tspan> {</text>
 </g></svg>
