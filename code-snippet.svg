@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="402" viewBox="0 0 820 402">
 <rect x="0.5" y="0.5" width="819" height="401" rx="6" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="32" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="17" font-weight="600">Code snippet of the day</text>
-<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/tutorial · src/Auth/auth.service.ts · L21–36 · TypeScript</text>
+<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/MultipleWindows · WindowManager.js · L84–99 · JavaScript</text>
 <line x1="0" x2="820" y1="66" y2="66" stroke="#30363d"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" style="white-space:pre">
-<text x="50" y="91" fill="#6e7681" text-anchor="end">21</text>
-<text x="64" y="91" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">try</tspan> {</text>
-<text x="50" y="110" fill="#6e7681" text-anchor="end">22</text>
-<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">  <tspan fill="#ff7b72">const</tspan> user = <tspan fill="#ff7b72">await</tspan> <tspan fill="#ff7b72">this</tspan>.prisma.user.create({</text>
-<text x="50" y="129" fill="#6e7681" text-anchor="end">23</text>
-<text x="64" y="129" fill="#c9d1d9" xml:space="preserve">    data: {</text>
-<text x="50" y="148" fill="#6e7681" text-anchor="end">24</text>
-<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">      email: dto.email,</text>
-<text x="50" y="167" fill="#6e7681" text-anchor="end">25</text>
-<text x="64" y="167" fill="#c9d1d9" xml:space="preserve">      hash,</text>
-<text x="50" y="186" fill="#6e7681" text-anchor="end">26</text>
-<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">    },</text>
-<text x="50" y="205" fill="#6e7681" text-anchor="end">27</text>
-<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">    select: {</text>
-<text x="50" y="224" fill="#6e7681" text-anchor="end">28</text>
-<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">      id: <tspan fill="#ff7b72">true</tspan>,</text>
-<text x="50" y="243" fill="#6e7681" text-anchor="end">29</text>
-<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">      email: <tspan fill="#ff7b72">true</tspan>,</text>
-<text x="50" y="262" fill="#6e7681" text-anchor="end">30</text>
-<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">      createdAt: <tspan fill="#ff7b72">true</tspan>,</text>
-<text x="50" y="281" fill="#6e7681" text-anchor="end">31</text>
-<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">    },</text>
-<text x="50" y="300" fill="#6e7681" text-anchor="end">32</text>
-<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">  });</text>
-<text x="50" y="319" fill="#6e7681" text-anchor="end">33</text>
-<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">  <tspan fill="#ff7b72">return</tspan> user;</text>
-<text x="50" y="338" fill="#6e7681" text-anchor="end">34</text>
-<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">} <tspan fill="#ff7b72">catch</tspan> (error: unknown) {</text>
-<text x="50" y="357" fill="#6e7681" text-anchor="end">35</text>
-<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">  <tspan fill="#ff7b72">if</tspan> (error instanceof PrismaClientKnownRequestError) {</text>
-<text x="50" y="376" fill="#6e7681" text-anchor="end">36</text>
-<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">if</tspan> (error.code === <tspan fill="#a5d6ff">'P2002'</tspan>) {</text>
+<text x="50" y="91" fill="#6e7681" text-anchor="end">84</text>
+<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">getWindowIndexFromId (id)</text>
+<text x="50" y="110" fill="#6e7681" text-anchor="end">85</text>
+<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">{</text>
+<text x="50" y="129" fill="#6e7681" text-anchor="end">86</text>
+<text x="64" y="129" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">let</tspan> index = -<tspan fill="#79c0ff">1</tspan>;</text>
+<text x="50" y="148" fill="#6e7681" text-anchor="end">87</text>
+<text x="64" y="148" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="167" fill="#6e7681" text-anchor="end">88</text>
+<text x="64" y="167" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">for</tspan> (<tspan fill="#ff7b72">let</tspan> i = <tspan fill="#79c0ff">0</tspan>; i &lt; <tspan fill="#ff7b72">this</tspan>.#windows.length; i++)</text>
+<text x="50" y="186" fill="#6e7681" text-anchor="end">89</text>
+<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">    {</text>
+<text x="50" y="205" fill="#6e7681" text-anchor="end">90</text>
+<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">        <tspan fill="#ff7b72">if</tspan> (<tspan fill="#ff7b72">this</tspan>.#windows[i].id == id) index = i;</text>
+<text x="50" y="224" fill="#6e7681" text-anchor="end">91</text>
+<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">    }</text>
+<text x="50" y="243" fill="#6e7681" text-anchor="end">92</text>
+<text x="64" y="243" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="262" fill="#6e7681" text-anchor="end">93</text>
+<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">return</tspan> index;</text>
+<text x="50" y="281" fill="#6e7681" text-anchor="end">94</text>
+<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">}</text>
+<text x="50" y="300" fill="#6e7681" text-anchor="end">95</text>
+<text x="64" y="300" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="319" fill="#6e7681" text-anchor="end">96</text>
+<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">updateWindowsLocalStorage ()</text>
+<text x="50" y="338" fill="#6e7681" text-anchor="end">97</text>
+<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">{</text>
+<text x="50" y="357" fill="#6e7681" text-anchor="end">98</text>
+<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">    localStorage.setItem(<tspan fill="#a5d6ff">"windows"</tspan>, JSON.stringify(<tspan fill="#ff7b72">this</tspan>.#windows));</text>
+<text x="50" y="376" fill="#6e7681" text-anchor="end">99</text>
+<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">}</text>
 </g></svg>
