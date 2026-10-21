@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="402" viewBox="0 0 820 402">
 <rect x="0.5" y="0.5" width="819" height="401" rx="6" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="32" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="17" font-weight="600">Code snippet of the day</text>
-<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/AI-Agent · main.js · L1–16 · JavaScript</text>
+<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/GamePortfolio · src/constants.js · L4–19 · JavaScript</text>
 <line x1="0" x2="820" y1="66" y2="66" stroke="#30363d"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" style="white-space:pre">
-<text x="50" y="91" fill="#6e7681" text-anchor="end">1</text>
-<text x="64" y="91" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">const</tspan> { app, BrowserWindow } = require(<tspan fill="#a5d6ff">'electron'</tspan>);</text>
-<text x="50" y="110" fill="#6e7681" text-anchor="end">2</text>
-<text x="64" y="110" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">const</tspan> path = require(<tspan fill="#a5d6ff">'path'</tspan>);</text>
-<text x="50" y="129" fill="#6e7681" text-anchor="end">3</text>
-<text x="64" y="129" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="50" y="148" fill="#6e7681" text-anchor="end">4</text>
-<text x="64" y="148" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">function</tspan> createWindow() {</text>
-<text x="50" y="167" fill="#6e7681" text-anchor="end">5</text>
-<text x="64" y="167" fill="#c9d1d9" xml:space="preserve">  <tspan fill="#8b949e">// Create the browser window.</tspan></text>
-<text x="50" y="186" fill="#6e7681" text-anchor="end">6</text>
-<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">  <tspan fill="#ff7b72">const</tspan> mainWindow = <tspan fill="#ff7b72">new</tspan> BrowserWindow({</text>
-<text x="50" y="205" fill="#6e7681" text-anchor="end">7</text>
-<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">    width: <tspan fill="#79c0ff">800</tspan>,</text>
-<text x="50" y="224" fill="#6e7681" text-anchor="end">8</text>
-<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">    height: <tspan fill="#79c0ff">600</tspan>,</text>
-<text x="50" y="243" fill="#6e7681" text-anchor="end">9</text>
-<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">    webPreferences: {</text>
-<text x="50" y="262" fill="#6e7681" text-anchor="end">10</text>
-<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">      preload: path.join(__dirname, <tspan fill="#a5d6ff">'preload.js'</tspan>)</text>
-<text x="50" y="281" fill="#6e7681" text-anchor="end">11</text>
-<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">    }</text>
-<text x="50" y="300" fill="#6e7681" text-anchor="end">12</text>
-<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">  });</text>
-<text x="50" y="319" fill="#6e7681" text-anchor="end">13</text>
-<text x="64" y="319" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="50" y="338" fill="#6e7681" text-anchor="end">14</text>
-<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">  <tspan fill="#8b949e">// and load the index.html of the app.</tspan></text>
-<text x="50" y="357" fill="#6e7681" text-anchor="end">15</text>
-<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">  mainWindow.loadFile(<tspan fill="#a5d6ff">'index.html'</tspan>);</text>
-<text x="50" y="376" fill="#6e7681" text-anchor="end">16</text>
-<text x="64" y="376" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="91" fill="#6e7681" text-anchor="end">4</text>
+<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">pc: <tspan fill="#a5d6ff">`This is my PC. I work mostly in JavaScript/TypeScript these days.</tspan></text>
+<text x="50" y="110" fill="#6e7681" text-anchor="end">5</text>
+<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">  I<tspan fill="#a5d6ff">'ve made a couple of games in that language. I also like Java and Python. Anyway reg…</tspan></text>
+<text x="50" y="129" fill="#6e7681" text-anchor="end">6</text>
+<text x="64" y="129" fill="#c9d1d9" xml:space="preserve">  Here <tspan fill="#ff7b72">is</tspan> my &lt;a href=<tspan fill="#a5d6ff">"https://github.com/maydaythecoder"</tspan> target=<tspan fill="#a5d6ff">"_blank"</tspan>&gt;Github&lt;/a&gt;!<tspan fill="#a5d6ff">`,</tspan></text>
+<text x="50" y="148" fill="#6e7681" text-anchor="end">7</text>
+<text x="64" y="148" fill="#c9d1d9" xml:space="preserve"><tspan fill="#a5d6ff">"Graphic-design"</tspan>: <tspan fill="#a5d6ff">`This is my first graphic design. I hung it on the wall because I'm p…</tspan></text>
+<text x="50" y="167" fill="#6e7681" text-anchor="end">8</text>
+<text x="64" y="167" fill="#c9d1d9" xml:space="preserve"><tspan fill="#a5d6ff">"sofa-table"</tspan>: <tspan fill="#a5d6ff">`That's my sofa. I like to relax here and watch Technical Tutorials. `</tspan>,</text>
+<text x="50" y="186" fill="#6e7681" text-anchor="end">9</text>
+<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">tv: <tspan fill="#a5d6ff">`That's my TV. I've been watching tech youtubers a lot recently like :</tspan></text>
+<text x="50" y="205" fill="#6e7681" text-anchor="end">10</text>
+<text x="64" y="205" fill="#c9d1d9" xml:space="preserve"> &lt;a href=<tspan fill="#a5d6ff">"https://www.youtube.com/@ThePrimeTimeagen"</tspan> target=<tspan fill="#a5d6ff">"_blank"</tspan>&gt;Theprimeagen&lt;/a&gt;, …</text>
+<text x="50" y="224" fill="#6e7681" text-anchor="end">11</text>
+<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">&lt;a href=<tspan fill="#a5d6ff">"https://www.youtube.com/@Fireship"</tspan> target=<tspan fill="#a5d6ff">"_blank"</tspan>&gt;Fireship&lt;/a&gt; (sometimes) an…</text>
+<text x="50" y="243" fill="#6e7681" text-anchor="end">12</text>
+<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">bed: <tspan fill="#a5d6ff">`This where I sleep. Great ideas comes when I'm lying on my bed. When an idea stri…</tspan></text>
+<text x="50" y="262" fill="#6e7681" text-anchor="end">13</text>
+<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">resume: <tspan fill="#a5d6ff">`This is my desk and on it is my resume. &lt;a href="https://github.com/maydaythec…</tspan></text>
+<text x="50" y="281" fill="#6e7681" text-anchor="end">14</text>
+<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">Contact me at muhyadin.mohamed.<tspan fill="#79c0ff">003</tspan>@gmail.com <tspan fill="#ff7b72">if</tspan> you have any interesting job opportunit…</text>
+<text x="50" y="300" fill="#6e7681" text-anchor="end">15</text>
+<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">projects: <tspan fill="#a5d6ff">`Info about this portfolio : It's made with the Kaboom.js library which is a …</tspan></text>
+<text x="50" y="319" fill="#6e7681" text-anchor="end">16</text>
+<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">Text <tspan fill="#ff7b72">is</tspan> rendered <tspan fill="#ff7b72">with</tspan> HTML/CSS. So the textbox you<tspan fill="#a5d6ff">'re currently reading is not rendered…</tspan></text>
+<text x="50" y="338" fill="#6e7681" text-anchor="end">17</text>
+<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">library: <tspan fill="#a5d6ff">`There are a lot of programming books on my shelves. There is even one in Fren…</tspan></text>
+<text x="50" y="357" fill="#6e7681" text-anchor="end">18</text>
+<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">I probably only read one of them. Who <tspan fill="#ff7b72">else</tspan> compulsively buys technical books without ev…</text>
+<text x="50" y="376" fill="#6e7681" text-anchor="end">19</text>
+<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">exit: <tspan fill="#a5d6ff">`If you want to exit muhyadin's portfolio, just close the tab.`</tspan>,</text>
 </g></svg>
