@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="402" viewBox="0 0 820 402">
 <rect x="0.5" y="0.5" width="819" height="401" rx="6" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="32" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="17" font-weight="600">Code snippet of the day</text>
-<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/navigation · index.js · L29–44 · JavaScript</text>
+<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/Beatswap · config.py · L11–26 · Python</text>
 <line x1="0" x2="820" y1="66" y2="66" stroke="#30363d"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" style="white-space:pre">
-<text x="50" y="91" fill="#6e7681" text-anchor="end">29</text>
-<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">  wrapper.dataset.roundness = combination.roundness;</text>
-<text x="50" y="110" fill="#6e7681" text-anchor="end">30</text>
-<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">  </text>
-<text x="50" y="129" fill="#6e7681" text-anchor="end">31</text>
-<text x="64" y="129" fill="#c9d1d9" xml:space="preserve">  prev = index;</text>
-<text x="50" y="148" fill="#6e7681" text-anchor="end">32</text>
-<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">}, <tspan fill="#79c0ff">3000</tspan>);</text>
-<text x="50" y="167" fill="#6e7681" text-anchor="end">33</text>
+<text x="50" y="91" fill="#6e7681" text-anchor="end">11</text>
+<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'learning_rate'</tspan>: <tspan fill="#79c0ff">0.001</tspan>,</text>
+<text x="50" y="110" fill="#6e7681" text-anchor="end">12</text>
+<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'num_epochs'</tspan>: <tspan fill="#79c0ff">100</tspan>,</text>
+<text x="50" y="129" fill="#6e7681" text-anchor="end">13</text>
+<text x="64" y="129" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'device'</tspan>: <tspan fill="#a5d6ff">'cuda'</tspan> <tspan fill="#ff7b72">if</tspan> __import__(<tspan fill="#a5d6ff">'torch'</tspan>).cuda.is_available() <tspan fill="#ff7b72">else</tspan> <tspan fill="#a5d6ff">'cpu'</tspan>,</text>
+<text x="50" y="148" fill="#6e7681" text-anchor="end">14</text>
+<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">}</text>
+<text x="50" y="167" fill="#6e7681" text-anchor="end">15</text>
 <text x="64" y="167" fill="#c9d1d9" xml:space="preserve"></text>
-<text x="50" y="186" fill="#6e7681" text-anchor="end">34</text>
-<text x="64" y="186" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e">// Add click event listener to each shape</tspan></text>
-<text x="50" y="205" fill="#6e7681" text-anchor="end">35</text>
-<text x="64" y="205" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">const</tspan> shapes = document.querySelectorAll(<tspan fill="#a5d6ff">'.shape'</tspan>);</text>
-<text x="50" y="224" fill="#6e7681" text-anchor="end">36</text>
-<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">shapes.forEach(shape =&gt; {</text>
-<text x="50" y="243" fill="#6e7681" text-anchor="end">37</text>
-<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">  shape.addEventListener(<tspan fill="#a5d6ff">'click'</tspan>, () =&gt; {</text>
-<text x="50" y="262" fill="#6e7681" text-anchor="end">38</text>
-<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#8b949e">// Toggle animation class</tspan></text>
-<text x="50" y="281" fill="#6e7681" text-anchor="end">39</text>
-<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">    shape.classList.toggle(<tspan fill="#a5d6ff">'clicked'</tspan>);</text>
-<text x="50" y="300" fill="#6e7681" text-anchor="end">40</text>
-<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">    </text>
-<text x="50" y="319" fill="#6e7681" text-anchor="end">41</text>
-<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#8b949e">// Optionally remove the class after animation ends to allow repeated clicks</tspan></text>
-<text x="50" y="338" fill="#6e7681" text-anchor="end">42</text>
-<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">    setTimeout(() =&gt; {</text>
-<text x="50" y="357" fill="#6e7681" text-anchor="end">43</text>
-<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">      shape.classList.remove(<tspan fill="#a5d6ff">'clicked'</tspan>);</text>
-<text x="50" y="376" fill="#6e7681" text-anchor="end">44</text>
-<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">    }, <tspan fill="#79c0ff">1000</tspan>);  <tspan fill="#8b949e">// Match the duration of your animation</tspan></text>
+<text x="50" y="186" fill="#6e7681" text-anchor="end">16</text>
+<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">AUDIO_CONFIG = {</text>
+<text x="50" y="205" fill="#6e7681" text-anchor="end">17</text>
+<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'sample_rate'</tspan>: <tspan fill="#79c0ff">22050</tspan>,</text>
+<text x="50" y="224" fill="#6e7681" text-anchor="end">18</text>
+<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'num_samples'</tspan>: <tspan fill="#79c0ff">22050</tspan> * <tspan fill="#79c0ff">10</tspan>,  <tspan fill="#8b949e"># 10 seconds default</tspan></text>
+<text x="50" y="243" fill="#6e7681" text-anchor="end">19</text>
+<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'normalize'</tspan>: <tspan fill="#ff7b72">True</tspan>,</text>
+<text x="50" y="262" fill="#6e7681" text-anchor="end">20</text>
+<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">}</text>
+<text x="50" y="281" fill="#6e7681" text-anchor="end">21</text>
+<text x="64" y="281" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="300" fill="#6e7681" text-anchor="end">22</text>
+<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">PATHS = {</text>
+<text x="50" y="319" fill="#6e7681" text-anchor="end">23</text>
+<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'checkpoints_dir'</tspan>: <tspan fill="#a5d6ff">'checkpoints'</tspan>,</text>
+<text x="50" y="338" fill="#6e7681" text-anchor="end">24</text>
+<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">'outputs_dir'</tspan>: <tspan fill="#a5d6ff">'outputs'</tspan>,</text>
+<text x="50" y="357" fill="#6e7681" text-anchor="end">25</text>
+<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">}</text>
+<text x="50" y="376" fill="#6e7681" text-anchor="end">26</text>
+<text x="64" y="376" fill="#c9d1d9" xml:space="preserve"></text>
 </g></svg>
