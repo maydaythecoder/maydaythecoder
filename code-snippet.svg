@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="402" viewBox="0 0 820 402">
 <rect x="0.5" y="0.5" width="819" height="401" rx="6" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="32" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="17" font-weight="600">Code snippet of the day</text>
-<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/architect · estimator.py · L98–113 · Python</text>
+<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/React-Native-Auth · scripts/reset-project.js · L60–75 · JavaScript</text>
 <line x1="0" x2="820" y1="66" y2="66" stroke="#30363d"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" style="white-space:pre">
-<text x="50" y="91" fill="#6e7681" text-anchor="end">98</text>
-<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">    output_dir: str = <tspan fill="#a5d6ff">"outputs"</tspan></text>
-<text x="50" y="110" fill="#6e7681" text-anchor="end">99</text>
-<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">) -&gt; str:</text>
-<text x="50" y="129" fill="#6e7681" text-anchor="end">100</text>
-<text x="64" y="129" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">""</tspan><tspan fill="#a5d6ff">"</tspan></text>
-<text x="50" y="148" fill="#6e7681" text-anchor="end">101</text>
-<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">    Estimate construction cost <tspan fill="#ff7b72">and</tspan> time <tspan fill="#ff7b72">from</tspan> blueprint features <tspan fill="#ff7b72">and</tspan> <tspan fill="#79c0ff">3D</tspan> volume.</text>
-<text x="50" y="167" fill="#6e7681" text-anchor="end">102</text>
-<text x="64" y="167" fill="#c9d1d9" xml:space="preserve">    </text>
-<text x="50" y="186" fill="#6e7681" text-anchor="end">103</text>
-<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">    Args:</text>
-<text x="50" y="205" fill="#6e7681" text-anchor="end">104</text>
-<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">        blueprint_features: Dictionary <tspan fill="#ff7b72">with</tspan> area_sqft, wall_length_ft, room_count</text>
-<text x="50" y="224" fill="#6e7681" text-anchor="end">105</text>
-<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">        volume_cubic_meters: Volume <tspan fill="#ff7b72">from</tspan> <tspan fill="#79c0ff">3D</tspan> model</text>
-<text x="50" y="243" fill="#6e7681" text-anchor="end">106</text>
-<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">        output_dir: Directory to save output JSON</text>
-<text x="50" y="262" fill="#6e7681" text-anchor="end">107</text>
-<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">    </text>
-<text x="50" y="281" fill="#6e7681" text-anchor="end">108</text>
-<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">    Returns:</text>
-<text x="50" y="300" fill="#6e7681" text-anchor="end">109</text>
-<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">        Path to saved estimate JSON file</text>
-<text x="50" y="319" fill="#6e7681" text-anchor="end">110</text>
-<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#a5d6ff">""</tspan><tspan fill="#a5d6ff">"</tspan></text>
-<text x="50" y="338" fill="#6e7681" text-anchor="end">111</text>
-<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#8b949e"># Create output directory</tspan></text>
-<text x="50" y="357" fill="#6e7681" text-anchor="end">112</text>
-<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">    os.makedirs(output_dir, exist_ok=<tspan fill="#ff7b72">True</tspan>)</text>
-<text x="50" y="376" fill="#6e7681" text-anchor="end">113</text>
-<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">    output_path = os.path.abspath(os.path.join(output_dir, <tspan fill="#a5d6ff">"estimate.json"</tspan>))</text>
+<text x="50" y="91" fill="#6e7681" text-anchor="end">60</text>
+<text x="64" y="91" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e">// Create new /app directory</tspan></text>
+<text x="50" y="110" fill="#6e7681" text-anchor="end">61</text>
+<text x="64" y="110" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">const</tspan> newAppDirPath = path.join(root, newAppDir);</text>
+<text x="50" y="129" fill="#6e7681" text-anchor="end">62</text>
+<text x="64" y="129" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">await</tspan> fs.promises.mkdir(newAppDirPath, { recursive: <tspan fill="#ff7b72">true</tspan> });</text>
+<text x="50" y="148" fill="#6e7681" text-anchor="end">63</text>
+<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">console.log(<tspan fill="#a5d6ff">"\n📁 New /app directory created."</tspan>);</text>
+<text x="50" y="167" fill="#6e7681" text-anchor="end">64</text>
+<text x="64" y="167" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="186" fill="#6e7681" text-anchor="end">65</text>
+<text x="64" y="186" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e">// Create index.tsx</tspan></text>
+<text x="50" y="205" fill="#6e7681" text-anchor="end">66</text>
+<text x="64" y="205" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">const</tspan> indexPath = path.join(newAppDirPath, <tspan fill="#a5d6ff">"index.tsx"</tspan>);</text>
+<text x="50" y="224" fill="#6e7681" text-anchor="end">67</text>
+<text x="64" y="224" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">await</tspan> fs.promises.writeFile(indexPath, indexContent);</text>
+<text x="50" y="243" fill="#6e7681" text-anchor="end">68</text>
+<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">console.log(<tspan fill="#a5d6ff">"📄 app/index.tsx created."</tspan>);</text>
+<text x="50" y="262" fill="#6e7681" text-anchor="end">69</text>
+<text x="64" y="262" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="281" fill="#6e7681" text-anchor="end">70</text>
+<text x="64" y="281" fill="#c9d1d9" xml:space="preserve"><tspan fill="#8b949e">// Create _layout.tsx</tspan></text>
+<text x="50" y="300" fill="#6e7681" text-anchor="end">71</text>
+<text x="64" y="300" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">const</tspan> layoutPath = path.join(newAppDirPath, <tspan fill="#a5d6ff">"_layout.tsx"</tspan>);</text>
+<text x="50" y="319" fill="#6e7681" text-anchor="end">72</text>
+<text x="64" y="319" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">await</tspan> fs.promises.writeFile(layoutPath, layoutContent);</text>
+<text x="50" y="338" fill="#6e7681" text-anchor="end">73</text>
+<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">console.log(<tspan fill="#a5d6ff">"📄 app/_layout.tsx created."</tspan>);</text>
+<text x="50" y="357" fill="#6e7681" text-anchor="end">74</text>
+<text x="64" y="357" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="376" fill="#6e7681" text-anchor="end">75</text>
+<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">console.log(<tspan fill="#a5d6ff">"\n✅ Project reset complete. Next steps:"</tspan>);</text>
 </g></svg>
