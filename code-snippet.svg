@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="820" height="402" viewBox="0 0 820 402">
 <rect x="0.5" y="0.5" width="819" height="401" rx="6" fill="#0d1117" stroke="#30363d"/>
 <text x="20" y="32" fill="#58a6ff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="17" font-weight="600">Code snippet of the day</text>
-<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/json-bridge · app/components/DropdownMenu.tsx · L35–50 · TypeScript</text>
+<text x="20" y="54" fill="#6e7681" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">maydaythecoder/Google-api-python-client · tests/test_json_model.py · L292–307 · Python</text>
 <line x1="0" x2="820" y1="66" y2="66" stroke="#30363d"/>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" style="white-space:pre">
-<text x="50" y="91" fill="#6e7681" text-anchor="end">35</text>
-<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">  className=<tspan fill="#a5d6ff">"w-full p-2 border rounded"</tspan></text>
-<text x="50" y="110" fill="#6e7681" text-anchor="end">36</text>
-<text x="64" y="110" fill="#c9d1d9" xml:space="preserve">&gt;</text>
-<text x="50" y="129" fill="#6e7681" text-anchor="end">37</text>
-<text x="64" y="129" fill="#c9d1d9" xml:space="preserve">  &lt;option value=<tspan fill="#a5d6ff">"JSON"</tspan>&gt;JSON&lt;/option&gt;</text>
-<text x="50" y="148" fill="#6e7681" text-anchor="end">38</text>
-<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">  &lt;option value=<tspan fill="#a5d6ff">"CSV"</tspan>&gt;CSV&lt;/option&gt;</text>
-<text x="50" y="167" fill="#6e7681" text-anchor="end">39</text>
-<text x="64" y="167" fill="#c9d1d9" xml:space="preserve">  &lt;option value=<tspan fill="#a5d6ff">"SQL"</tspan>&gt;SQL&lt;/option&gt;</text>
-<text x="50" y="186" fill="#6e7681" text-anchor="end">40</text>
-<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">&lt;/select&gt;</text>
-<text x="50" y="205" fill="#6e7681" text-anchor="end">41</text>
-<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">&lt;button</text>
-<text x="50" y="224" fill="#6e7681" text-anchor="end">42</text>
-<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">  onClick={handleConvert}</text>
-<text x="50" y="243" fill="#6e7681" text-anchor="end">43</text>
-<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">  className=<tspan fill="#a5d6ff">"mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"</tspan></text>
-<text x="50" y="262" fill="#6e7681" text-anchor="end">44</text>
-<text x="64" y="262" fill="#c9d1d9" xml:space="preserve">&gt;</text>
-<text x="50" y="281" fill="#6e7681" text-anchor="end">45</text>
-<text x="64" y="281" fill="#c9d1d9" xml:space="preserve">  Convert</text>
-<text x="50" y="300" fill="#6e7681" text-anchor="end">46</text>
-<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">&lt;/button&gt;</text>
-<text x="50" y="319" fill="#6e7681" text-anchor="end">47</text>
-<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">{convertedData &amp;&amp; (</text>
-<text x="50" y="338" fill="#6e7681" text-anchor="end">48</text>
-<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">  &lt;pre className=<tspan fill="#a5d6ff">"mt-4 bg-gray-800 text-white p-4 rounded max-h-[400px] overflow-auto"</tspan>&gt;</text>
-<text x="50" y="357" fill="#6e7681" text-anchor="end">49</text>
-<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">    &lt;code&gt;{convertedData}&lt;/code&gt;</text>
-<text x="50" y="376" fill="#6e7681" text-anchor="end">50</text>
-<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">  &lt;/pre&gt;</text>
+<text x="50" y="91" fill="#6e7681" text-anchor="end">292</text>
+<text x="64" y="91" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">self</tspan>.assertEqual(content, {<tspan fill="#a5d6ff">"data"</tspan>: <tspan fill="#a5d6ff">"is good"</tspan>})</text>
+<text x="50" y="110" fill="#6e7681" text-anchor="end">293</text>
+<text x="64" y="110" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="129" fill="#6e7681" text-anchor="end">294</text>
+<text x="64" y="129" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">def</tspan> test_no_data_wrapper_deserialize_text_format(<tspan fill="#ff7b72">self</tspan>):</text>
+<text x="50" y="148" fill="#6e7681" text-anchor="end">295</text>
+<text x="64" y="148" fill="#c9d1d9" xml:space="preserve">    model = JsonModel(data_wrapper=<tspan fill="#ff7b72">False</tspan>)</text>
+<text x="50" y="167" fill="#6e7681" text-anchor="end">296</text>
+<text x="64" y="167" fill="#c9d1d9" xml:space="preserve">    resp = httplib2.Response({<tspan fill="#a5d6ff">"status"</tspan>: <tspan fill="#a5d6ff">"200"</tspan>})</text>
+<text x="50" y="186" fill="#6e7681" text-anchor="end">297</text>
+<text x="64" y="186" fill="#c9d1d9" xml:space="preserve">    resp.reason = <tspan fill="#a5d6ff">"OK"</tspan></text>
+<text x="50" y="205" fill="#6e7681" text-anchor="end">298</text>
+<text x="64" y="205" fill="#c9d1d9" xml:space="preserve">    content = CSV_TEXT_MOCK</text>
+<text x="50" y="224" fill="#6e7681" text-anchor="end">299</text>
+<text x="64" y="224" fill="#c9d1d9" xml:space="preserve">    content = model.response(resp, content)</text>
+<text x="50" y="243" fill="#6e7681" text-anchor="end">300</text>
+<text x="64" y="243" fill="#c9d1d9" xml:space="preserve">    <tspan fill="#ff7b72">self</tspan>.assertEqual(content, CSV_TEXT_MOCK)</text>
+<text x="50" y="262" fill="#6e7681" text-anchor="end">301</text>
+<text x="64" y="262" fill="#c9d1d9" xml:space="preserve"></text>
+<text x="50" y="281" fill="#6e7681" text-anchor="end">302</text>
+<text x="64" y="281" fill="#c9d1d9" xml:space="preserve"><tspan fill="#ff7b72">def</tspan> test_no_data_wrapper_deserialize_raise_type_error(<tspan fill="#ff7b72">self</tspan>):</text>
+<text x="50" y="300" fill="#6e7681" text-anchor="end">303</text>
+<text x="64" y="300" fill="#c9d1d9" xml:space="preserve">    buffer = io.StringIO()</text>
+<text x="50" y="319" fill="#6e7681" text-anchor="end">304</text>
+<text x="64" y="319" fill="#c9d1d9" xml:space="preserve">    buffer.write(<tspan fill="#a5d6ff">"String buffer"</tspan>)</text>
+<text x="50" y="338" fill="#6e7681" text-anchor="end">305</text>
+<text x="64" y="338" fill="#c9d1d9" xml:space="preserve">    model = JsonModel(data_wrapper=<tspan fill="#ff7b72">False</tspan>)</text>
+<text x="50" y="357" fill="#6e7681" text-anchor="end">306</text>
+<text x="64" y="357" fill="#c9d1d9" xml:space="preserve">    resp = httplib2.Response({<tspan fill="#a5d6ff">"status"</tspan>: <tspan fill="#a5d6ff">"500"</tspan>})</text>
+<text x="50" y="376" fill="#6e7681" text-anchor="end">307</text>
+<text x="64" y="376" fill="#c9d1d9" xml:space="preserve">    resp.reason = <tspan fill="#a5d6ff">"The JSON object must be str, bytes or bytearray, not StringIO"</tspan></text>
 </g></svg>
